@@ -2,116 +2,135 @@
 
 <div align="center">
 
-![DevOps](https://img.shields.io/badge/DevOps-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Learning](https://img.shields.io/badge/Learning-DevOps-4CAF50?style=for-the-badge&logo=bookstack&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Automation](https://img.shields.io/badge/Automation-FF6B35?style=for-the-badge&logo=ansible&logoColor=white)
+![Practice](https://img.shields.io/badge/Practice-Projects-FF6B35?style=for-the-badge&logo=tools&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 **Welcome to DevOps Laboratory**
+## 🎓 **DevOps 학습 여정**
 
-**DevOpsLab-OZ**는 실무 중심의 **DevOps 도구 개발**과 **개발 환경 자동화**를 위한 실험실입니다.
+**DevOpsLab-OZ**는 **DevOps를 공부하면서 직접 만들어본 프로젝트들**을 모아둔 개인 학습 공간입니다.
 
-실제 운영 환경에서 사용할 수 있는 **모니터링 솔루션**, **개발 환경 자동화 스크립트**, **설정 관리 도구**들을 개발하고 공유하여, DevOps 엔지니어들이 보다 효율적으로 인프라를 관리할 수 있도록 지원합니다.
-
----
-
-## 🔧 **Lab Projects**
-
-### 📊 **network_monitor**
-- **Python 기반 네트워크 모니터링 도구**
-- 실시간 네트워크 상태 추적 및 성능 분석
-- 알림 시스템과 대시보드 연동 기능
-- 엔터프라이즈 환경에서의 네트워크 장애 예방
-
-### ⚙️ **dotfiles**  
-- **개인화된 개발 환경 설정 파일 모음**
-- Shell, Editor, Terminal 최적화 설정
-- 개발자 생산성 향상을 위한 커스텀 설정
-- 팀 간 일관된 개발 환경 구축 지원
-
-### 🔨 **dev-setup**
-- **개발 환경 자동 구성 도구**
-- 원클릭 개발 환경 설치 및 설정
-- Docker, Kubernetes 로컬 환경 구축
-- CI/CD 파이프라인 로컬 테스트 환경
+책이나 강의에서 배운 내용을 실제로 구현해보고, 시행착오를 겪으며 성장해가는 과정을 기록하고 있어요. 완벽하지 않더라도 **"일단 만들어보자!"** 정신으로 진행한 실습 프로젝트들입니다.
 
 ---
 
-## 🎯 **Lab Focus Areas**
+## 📚 **학습 프로젝트들**
 
-- 🔍 **Infrastructure Monitoring** - 시스템 및 네트워크 상태 모니터링
-- ⚡ **Development Automation** - 개발 워크플로우 자동화  
-- 🛡️ **Environment Management** - 일관성 있는 개발/운영 환경 구축
-- 📈 **Performance Optimization** - 시스템 성능 분석 및 최적화
-- 🔧 **DevOps Tooling** - 실무용 DevOps 도구 개발
-- 📦 **Configuration Management** - 설정 파일 버전 관리 및 배포
+### 🏗️ **dev-setup**
+> *"새 컴퓨터 설정할 때마다 반복 작업이 너무 귀찮아서 만들어본 자동화 스크립트"*
+
+- **WSL2 Ubuntu 환경** 한 번에 설정하기
+- Git, Zsh, Node.js, Python, Docker 등 **개발 도구 자동 설치**
+- VS Code 확장 프로그램도 스크립트로 설치
+- 설정 파일 관리하는 방법 연습
+- **배운 것**: Shell Scripting, 환경 변수, 패키지 관리
+
+### 📊 **network_monitor**  
+> *"네트워크 문제 진단할 때 CLI 명령어만 쓰기 아쉬워서 GUI로 만들어본 도구"*
+
+- **Python으로 네트워크 진단 기능** 구현해보기
+- Ping, 포트 스캔, DNS 조회를 **웹 브라우저에서** 할 수 있게
+- **Flask 웹 프레임워크** 첫 사용해보기
+- YAML 설정 파일로 모니터링 자동화 실습
+- **Docker 컨테이너화** 연습
+- **배운 것**: Python 네트워킹, Flask, Docker, YAML
+
+### ⚙️ **dotfiles**
+> *"개발 환경 설정을 Git으로 관리하면 편할 것 같아서 시도해본 프로젝트"*
+
+- **Zsh, Git, VS Code 설정 파일** 버전 관리
+- 심볼릭 링크 개념 이해하고 구현
+- 백업 기능도 넣어서 안전하게 적용
+- dev-setup과 연동해서 **통합 환경 구성**
+- **배운 것**: 심볼릭 링크, 백업 전략, 설정 관리
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🤔 **이런 걸 배웠어요**
+
+- 🐧 **Linux 시스템 관리** - 패키지 설치, 권한 관리, 환경 변수
+- 🐍 **Python 실무 활용** - 네트워킹 라이브러리, 웹 프레임워크, CLI 도구
+- 🐳 **Docker 기초** - 이미지 빌드, 컨테이너 실행, docker-compose
+- 📝 **자동화 스크립팅** - Bash 스크립트, 에러 처리, 사용자 입력
+- 🌐 **웹 개발 기초** - Flask, HTML 템플릿, REST API
+- ⚙️ **설정 관리** - YAML, 환경별 설정, 버전 관리
+
+---
+
+## 💭 **진행하면서 느낀 점**
+
+- **실제로 만들어보니** 이론과 실무는 정말 다르더라고요
+- **에러 메시지와 친해지기** - 구글링 실력이 늘었어요 😅
+- **작은 것부터 시작**하면서 점차 기능을 추가해가는 재미
+- **Docker가 생각보다 어려웠지만** 익숙해지니까 정말 편함
+- **자동화의 위력** - 한 번 만들어두니까 계속 써먹을 수 있어서 뿌듯
+
+---
+
+## 🛠️ **사용한 기술들**
 
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=for-the-badge&logo=zsh&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 </div>
 
 ---
 
-## 📖 **How to Use Lab Resources**
+## 🔍 **직접 써보고 싶다면**
 
-1. **🔍 Explore** - 각 프로젝트의 README를 통해 도구 기능 파악
-2. **📥 Clone** - 필요한 도구를 로컬 환경에 클론
-3. **⚙️ Configure** - 환경에 맞게 설정 파일 커스터마이징
-4. **🚀 Deploy** - 개발/운영 환경에 배포하여 활용
-5. **🔄 Contribute** - 개선사항 및 새로운 기능 기여
+### 🏗️ **개발 환경 자동 설정해보기**
+```bash
+git clone https://github.com/DevOpsLab-OZ/dev-setup.git
+cd dev-setup
+./setup.sh
+```
 
----
+### 📊 **네트워크 모니터링 도구 체험**
+```bash
+git clone https://github.com/DevOpsLab-OZ/network_monitor.git
+cd network_monitor
+pip install -r requirements.txt
+python web_app.py  # localhost:5000 접속
+```
 
-## 🎓 **Target Audience**
-
-- 🔧 **DevOps Engineers** - 실무용 모니터링 및 자동화 도구 필요
-- 👨‍💻 **Backend Developers** - 효율적인 개발 환경 구성
-- 🏗️ **Infrastructure Teams** - 시스템 관리 및 모니터링 솔루션
-- 📚 **DevOps Learners** - 실제 운영 환경에서 사용되는 도구 학습
-
----
-
-## 💡 **Lab Philosophy**
-
-- ⚡ **실용성 우선** - 실제 운영 환경에서 바로 사용 가능한 도구
-- 🔄 **지속적 개선** - 사용자 피드백을 통한 도구 발전
-- 🤝 **협업 중심** - 오픈소스 기여 및 지식 공유
-- 🎯 **문제 해결** - 실무에서 겪는 DevOps 과제 해결
+### ⚙️ **dotfiles 적용해보기**
+```bash
+git clone https://github.com/DevOpsLab-OZ/dotfiles.git
+cd dotfiles
+./install.sh
+```
 
 ---
 
-## 🔬 **Lab Experiments**
+## 🚀 **앞으로 도전해보고 싶은 것들**
 
-- 📊 **Real-time Network Monitoring** - 네트워크 병목 지점 실시간 탐지
-- 🚀 **Zero-downtime Deployment** - 무중단 배포 파이프라인 구축
-- 🔒 **Security Automation** - 보안 취약점 자동 스캔 및 알림
-- 📈 **Performance Benchmarking** - 시스템 성능 벤치마킹 자동화
+- 🔄 **CI/CD 파이프라인** 직접 구축해보기
+- ☁️ **클라우드 인프라** Terraform으로 관리해보기
+- 📊 **모니터링 대시보드** Grafana로 만들어보기
+- 🔐 **보안 자동화** 취약점 스캔 도구 개발
+- 🧪 **테스트 자동화** 프로젝트에 적용해보기
 
 ---
 
 <div align="center">
 
-### 🛠️ **Build Better Infrastructure Together!**
+### 🎓 **함께 공부해요!**
 
-*"모든 DevOps 엔지니어가 더 나은 도구로 더 효율적으로 일할 수 있도록"*
+*"완벽하지 않아도 일단 만들어보고, 에러가 나면 고치면서 배워가는 중"*
 
-**Let's DevOps! 🚀**
+**Keep Learning! 🚀**
 
 </div>
